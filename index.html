@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard Energético Mejorado</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>Consumo Energético por Sector</h1>
+    <p class="lead">Explora y compara el consumo energético por sector y por año.</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="controls-title" class="controls">
+      <h2 id="controls-title">Controles</h2>
+
+      <label for="year1-select">Año 1:</label>
+      <select id="year1-select"></select>
+
+      <label for="year2-select">Año 2 (opcional):</label>
+      <select id="year2-select">
+        <option value="">Ninguno</option>
+      </select>
+
+      <label>Selecciona sectores:</label>
+      <div id="sector-filters"></div>
+
+      <label for="chart-type">Tipo de gráfico:</label>
+      <select id="chart-type" aria-label="Seleccionar tipo de gráfico">
+        <option value="bar">Barras</option>
+        <option value="line">Línea</option>
+        <option value="pie">Torta</option>
+      </select>
+
+      <button id="download-csv" aria-label="Descargar datos en CSV">Descargar CSV</button>
+    </section>
+
+    <section aria-labelledby="chart-title" class="visualization">
+      <h2 id="chart-title">Visualización</h2>
+      <div class="chart-card" role="region" aria-describedby="chart-desc">
+        <p id="chart-desc" class="sr-only">Gráfico interactivo que muestra consumo por sector.</p>
+        <canvas id="energyChart" width="800" height="450"></canvas>
+      </div>
+    </section>
+
+    <section class="info" aria-labelledby="info-title">
+      <h2 id="info-title">Detalles</h2>
+      <div id="details" tabindex="0" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto Mejorado — Dashboard Energético</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

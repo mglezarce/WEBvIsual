@@ -1,0 +1,10 @@
+[
+  { "year": 2016, "Residential": 32, "Industrial": 28, "Transport": 20, "Services": 12, "Agriculture": 8, "Renewable": 5 },
+  { "year": 2017, "Residential": 31, "Industrial": 27, "Transport": 22, "Services": 13, "Agriculture": 7, "Renewable": 6 },
+  { "year": 2018, "Residential": 30, "Industrial": 26, "Transport": 24, "Services": 13, "Agriculture": 7, "Renewable": 7 },
+  { "year": 2019, "Residential": 29, "Industrial": 25, "Transport": 26, "Services": 13, "Agriculture": 7, "Renewable": 8 },
+  { "year": 2020, "Residential": 34, "Industrial": 24, "Transport": 22, "Services": 12, "Agriculture": 8, "Renewable": 9 },
+  { "year": 2021, "Residential": 33, "Industrial": 23, "Transport": 24, "Services": 12, "Agriculture": 8, "Renewable": 10 },
+  { "year": 2022, "Residential": 32, "Industrial": 22, "Transport": 26, "Services": 12, "Agriculture": 8, "Renewable": 11 },
+  { "year": 2023, "Residential": 31, "Industrial": 21, "Transport": 27, "Services": 12, "Agriculture": 7, "Renewable": 12 }
+]
